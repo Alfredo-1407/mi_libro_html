@@ -1,0 +1,135 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y disposición principal */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: #f7f7f7; Fondo claro */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    /* background-color: #ffffff; */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Estilo para el título */
+.titulo {
+    /* font-size: 2.5rem; */
+    color: #333;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilo para la imagen */
+.portada {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover en la imagen */
+.portada:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para el subtítulo */
+.subtitulo {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces de capítulos */
+.capitulos {
+    margin-top: 20px;
+}
+
+.enlace {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #007BFF;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.enlace:hover {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Fondo suave para no ser agresivo a la vista */
+    color: #333; /* Color de texto oscuro para buen contraste */
+    line-height: 1.6; /* Aumentar el espaciado entre las líneas para mejor legibilidad */
+    /* padding: 20px; */
+}
+
+/* Contenedor principal de texto */
+div {
+    background-color: #fff;
+    /* padding: 30px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Estilo para el título del capítulo */
+h2 {
+    font-size: 2rem;
+    color: #5c5c5c;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto hover en el enlace */
+a:hover {
+    background-color: #007BFF;
+    color: white;
+}
