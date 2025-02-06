@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -72,9 +71,10 @@ body {
 
 .enlace {
     font-size: 1.2rem;
-    color: #fff;
+    background-color: #405D72;
+    color: white;
     text-decoration: none;
-    background-color: #007BFF;
+    
     padding: 10px 20px;
     border-radius: 5px;
     width: 100%;
@@ -101,7 +101,8 @@ a {
 
 /* Efecto hover en los enlaces */
 a:hover {
-    background-color: #758694;
+    background-color: #0056b3;
+    color: #ffffff;
     
 }
 
@@ -143,5 +144,6 @@ h2 {
 }
 
 .button:hover {
-    background-color: #758694;
+    background-color: #0056b3;
+    color: #ffffff;
 }
